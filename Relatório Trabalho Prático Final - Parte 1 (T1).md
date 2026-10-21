@@ -7,7 +7,7 @@
 |  |  |
 
 **Link para o notebook do Google Colab (ou google drive com arquivos do T1):**  
-[Google Colab](https://colab.research.google.com/drive/1g9OaeB2x6kvaPcSNTCVsbPBBboNwhq9P?usp=sharing) 
+[Google Colab](https://colab.research.google.com/drive/1RlvYrCOHP42hWTWEHPSErE1awk6hvJ6-?usp=sharing) 
 
 # **1\. Definição do problema**
 
