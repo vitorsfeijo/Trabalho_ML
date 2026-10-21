@@ -10,7 +10,6 @@
 \usepackage{graphicx,array,longtable,enumitem,titlesec,fancyhdr,xcolor,microtype,needspace}
 \usepackage{xurl}
 \usepackage[colorlinks=true,urlcolor=linkblue,linkcolor=linkblue]{hyperref}
-\definecolor{headingblue}{HTML}{2F5F98}
 \definecolor{linkblue}{HTML}{1155CC}
 \pagestyle{fancy}
 \fancyhf{}
@@ -22,9 +21,9 @@
 \setlength{\parskip}{8pt}
 \setlength{\emergencystretch}{2em}
 \linespread{1.03}
-\titleformat{\section}{\normalfont\normalsize\bfseries\color{headingblue}}{}{0pt}{}
-\titleformat{\subsection}{\normalfont\normalsize\bfseries\color{headingblue}}{}{0pt}{}
-\titleformat{\subsubsection}{\normalfont\normalsize\bfseries}{}{0pt}{}
+\titleformat{\section}{\normalfont\Large\bfseries\color{black}}{}{0pt}{}
+\titleformat{\subsection}{\normalfont\large\bfseries\color{black}}{}{0pt}{}
+\titleformat{\subsubsection}{\normalfont\large\bfseries\color{black}}{}{0pt}{}
 \titlespacing*{\section}{0pt}{22pt}{12pt}
 \titlespacing*{\subsection}{0pt}{16pt}{6pt}
 \titlespacing*{\subsubsection}{0pt}{10pt}{6pt}
@@ -43,6 +42,37 @@
 \shorthandoff{"}
 \clubpenalty=10000
 \widowpenalty=10000
+
+% ==========================================
+% CAPA (Estilo UFRGS Centrado)
+% ==========================================
+\begin{titlepage}
+    \centering
+    
+    % Logo/Brasão da UFRGS
+    \includegraphics[height=4cm]{images/ufrgs-logo-transparent.png}\\[0.6cm]
+    
+    {\large Universidade Federal do Rio Grande do Sul}\\[0.1cm]
+    {\small Instituto de Informática}
+    
+    \vfill
+    
+    {\Large \textbf{Detector de Ataques Cardíacos}}
+    
+    \vfill
+    
+    {\large \textbf{INF01017 -- Aprendizado de Máquina}}\\[0.6cm]
+    
+    \textbf{Membros:}\\[0.2cm]
+    {\small Gabriel Knopp e Vítor Feijó}
+    
+    \vfill
+    
+    {\small Porto Alegre}\\[0.1cm]
+    {\small \today} % Pega a data atual de compilação automaticamente
+    
+\end{titlepage}
+
 \section*{Identificação do grupo}
 
 \begingroup
@@ -237,12 +267,8 @@ BHAT, N. Health care: Data set on Heart attack possibility. Kaggle. Disponível 
 
 JANOSI, A.; STEINBRUNN, W.; PFISTERER, M.; DETRANO, R. Heart Disease [conjunto de dados]. UCI Machine Learning Repository, 1988. DOI: \url{https://doi.org/10.24432/C52P4X}. Disponível em: \url{https://archive.ics.uci.edu/dataset/45/heart+disease}. Acesso em: 20 out. 2026.
 
-UCI MACHINE LEARNING REPOSITORY. Heart Disease: arquivos processed.cleveland.data (dados originais da base Cleveland, com valores ausentes marcados por "?") e heart-disease.names (documentação dos atributos). Disponível em: \url{https://archive.ics.uci.edu/ml/machine-learning-databases/heart-disease/}. Acesso em: 20 out. 2026. Utilizados para verificar a codificação de ca, thal e target na versão do Kaggle.
-
 DETRANO, R. et al. International application of a new probability algorithm for the diagnosis of coronary artery disease. American Journal of Cardiology, v. 64, n. 5, p. 304-310, 1989.
 
 PEDREGOSA, F. et al. Scikit-learn: Machine Learning in Python. Journal of Machine Learning Research, v. 12, p. 2825-2830, 2011.
-
-Anthropic. (2026). Claude (Opus 5.5) [Large language model]. Claude Code. \url{https://www.anthropic.com/claude-code}
 
 \end{document}
