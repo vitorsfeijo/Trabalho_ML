@@ -7,7 +7,7 @@
 \usepackage[scaled=1]{helvet}
 \renewcommand{\familydefault}{\sfdefault}
 \usepackage[left=62pt,right=62pt,top=78pt,bottom=48pt,headheight=14pt,headsep=24pt,footskip=25pt]{geometry}
-\usepackage{graphicx,array,longtable,enumitem,titlesec,fancyhdr,xcolor,microtype,needspace}
+\usepackage{graphicx,array,longtable,enumitem,titlesec,fancyhdr,xcolor,microtype,needspace,etoolbox}
 \usepackage{xurl}
 \usepackage[colorlinks=true,urlcolor=linkblue,linkcolor=linkblue]{hyperref}
 \definecolor{linkblue}{HTML}{1155CC}
@@ -27,6 +27,9 @@
 \titlespacing*{\section}{0pt}{22pt}{12pt}
 \titlespacing*{\subsection}{0pt}{16pt}{6pt}
 \titlespacing*{\subsubsection}{0pt}{10pt}{6pt}
+\pretocmd{\section}{\Needspace{8\baselineskip}}{}{}
+\pretocmd{\subsection}{\Needspace{5\baselineskip}}{}{}
+\pretocmd{\subsubsection}{\Needspace{4\baselineskip}}{}{}
 \setlist[itemize]{leftmargin=18pt,label=\textbullet,topsep=3pt,itemsep=3pt,parsep=0pt}
 \setlist[enumerate]{leftmargin=22pt,topsep=3pt,itemsep=6pt,parsep=0pt}
 \setlength{\LTpre}{5pt}
@@ -57,7 +60,7 @@
     
     \vfill
     
-    {\Large \textbf{Detector de Ataques Cardíacos}}
+    {\Large \textbf{Trabalho Aprendizado de Máquina - Sprint 1 \\ Detector de Ataques Cardíacos}}
     
     \vfill
     
@@ -174,6 +177,8 @@ Gradient Boosting & Padrão: 100 estimadores, learning\_rate = 0,1, max\_depth =
 
 Adicione linhas conforme necessário. Não é necessário apresentar aqui todo o código de execução; ele deve estar disponível no notebook.
 
+\clearpage
+
 \section*{5. Resultados}
 
 \subsection*{5.1 Tabela comparativa}
@@ -270,5 +275,7 @@ JANOSI, A.; STEINBRUNN, W.; PFISTERER, M.; DETRANO, R. Heart Disease [conjunto d
 DETRANO, R. et al. International application of a new probability algorithm for the diagnosis of coronary artery disease. American Journal of Cardiology, v. 64, n. 5, p. 304-310, 1989.
 
 PEDREGOSA, F. et al. Scikit-learn: Machine Learning in Python. Journal of Machine Learning Research, v. 12, p. 2825-2830, 2011.
+
+Anthropic. (2026). Claude (Opus 5.5) [Large language model]. Claude Code. \url{https://www.anthropic.com/claude-code}
 
 \end{document}
