@@ -3,7 +3,7 @@
 | Nome | Cartão UFRGS |
 | :---- | :---- |
 | Gabriel Pieruccini Knopp | 00594975 |
-| Vitor Santana Feijó | 00588403 |
+| Vítor Santana Feijó | 00588403 |
 |  |  |
 
 **Link para o notebook do Google Colab (ou google drive com arquivos do T1):**  
@@ -133,7 +133,7 @@ Utilizamos o Claude Opus 5.5 (Anthropic, 2026), por meio do Claude Code, como ap
 8. Remover travessões; inserir o gráfico comparativo; reordenar as referências; tirar dúvidas conceituais (uso do conjunto de teste na seleção de modelos, marcação vs imputação, ROC-AUC, contagem das classes após a correção do alvo e necessidade de normalização); revisar a integridade dos textos editados pelo grupo e as respostas das seções 6 e 7; discutir o uso de IA no trabalho.
 9. Levar as atualizações do relatório em Markdown para o .docx; tirar dúvidas sobre a ordem da marcação dos ausentes, o número de hiperparâmetros dos modelos, a pré-poda nas árvores, outros padrões observados entre os modelos e a terceira pergunta da seção 6; resumir os prompts nesta subseção.
 10. Verificar a consistência entre o notebook e o relatório e apontar trechos que ainda precisavam ser preenchidos ou removidos.
-11. Verificar novamente a consistência dos arquivos; remover a página de orientações do template; padronizar o nome "Vitor" sem acento; registrar as alterações em commits.
+11. Verificar novamente a consistência dos arquivos; remover a página de orientações do template; padronizar o nome "Vítor" com acento; registrar as alterações em commits.
 
 # **Referências utilizadas**
 
