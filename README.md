@@ -16,8 +16,8 @@ T1/                     Parte 1: caracterização do problema e spot-checking
   Relatório (.md, .tex, .docx e .pdf), figuras/, images/
 T2/                     Parte 2: otimização, avaliação e interpretação
   Notebook T2 - Otimização e Interpretação (validação).ipynb
-  Model_Card_T2.tex e .pdf (Model Card de 2 páginas, títulos das seções em inglês)
-  Model_Card_T2_PT.tex e .pdf (mesmo Model Card, com todos os títulos em português)
+  Model_Card_T2.tex e "Model Card Trabalho Machine Learning.pdf" (Model Card de 2 páginas, títulos em inglês)
+  Model_Card_T2_PT.tex e "Model Card Trabalho Machine Learning (PT).pdf" (mesmo Model Card, títulos em português)
   T2_Template_ModelCards.docx (template da professora, usado como base para as respostas)
   figuras/              tabelas e figuras de resultados do T2
 disciplina/             material da disciplina (diretrizes de IA e notebooks das aulas)
